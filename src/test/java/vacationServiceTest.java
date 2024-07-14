@@ -1,4 +1,5 @@
 package ru.netology.javaqa;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -14,6 +15,7 @@ public class vacationServiceTest {
 
         Assertions.assertEquals(expected, actual);
     }
+
     @Test
     public void testCashvacancionService() {
         vacationService service = new vacationService();
